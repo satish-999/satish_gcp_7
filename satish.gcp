@@ -1,0 +1,14 @@
+create database database name ;
+show databases ;
+use database ;
+create table tablename (add columns which we want  like roll_no,name,gender etc.. and add data types to columns like int,varchar,char,float,date etc,) ;
+ALTER :
+ADDING 
+alter table tablename add column like ph_num bigint ;
+drop 
+alter table tablename drop column like gender ;
+in drop we donot add any datatypes like int, char, varchar,etc.
+modifies
+alter table tablename change column name  like stu_name varchar(20) not null ;
+rename 
+alter table tablename rename to other name like satish to deepu ;
