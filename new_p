@@ -1,0 +1,44 @@
+q = 'vwxyz'
+for i in range(len(q)):
+   print(?)
+   q = ‘?’
+---
+- What is the output of following code −
+
+[ (a,b) for a in range(3) for b in range(a) ]
+A - [ (1,0),(2,1),(3,2)]
+
+B - [ (0,0),(1,1),(2,2)]
+
+C - [(1,0),(2,1),(2,1)]
+
+D - [ (1,0),(2,0),(2,1)]
+
+------
+- What will be the output of the code?
+
+q = 'TutorialsPoint'
+r = 'T'
+while r in q:
+   print('r', end= '' '')
+A - T T T T
+
+B - T U T O R I A L S P O I N T
+
+C - r r r r r r r r...
+
+D - TutorialsPoint
+
+  Previous Question
+--
+Q - Which of the following function convert a string to a long in python?
+
+A - int(x [,base])
+
+B - long(x [,base] )
+
+C - float(x)
+
+D - str(x)
+----
+Pylab is a package that combine _____
